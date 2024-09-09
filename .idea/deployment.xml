@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="remote_chempred" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="remote_chempred">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liangtao.wu/Development/CodeSpace/ChemPred_Revision" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/data" />
+            <excludedPath path="/home/liangtao.wu/Development/CodeSpace/ChemPred_Revision/data" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
