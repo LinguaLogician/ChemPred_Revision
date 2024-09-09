@@ -164,7 +164,11 @@ def parse_rxn(src, tgt):
     src, tgt = src.strip(), tgt.strip()
     if '  >' in src: src = src.replace('  >', ' > ')
     precursors = src.split(' > ')
-    reactants, reagents = [p.split(' . ') for p in precursors]
+    try:
+        reactants, reagents = [p.split(' . ') for p in precursors]
+    except Exception as e:
+        print('Error parsing reaction: %s' % src)
+
     products = tgt.split(' . ')  # should we pick only the largest?
     return {'reactants': [r for r in reactants if r != ''],\
             'reagents': [r for r in reagents if r != ''],\
