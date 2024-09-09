@@ -145,4 +145,4 @@ dependencies:
       - waitress==2.1.2
       - werkzeug==2.2.2
       - zipp==3.11.0
-#prefix: /home/borneta/miniconda3
+#prefix: /home/borneta/miniconda3   ee
